@@ -1,12 +1,18 @@
 body {
     background-color: rgb(208, 193, 175);
 }
+
 header {
     display: flex;
-    justify-content: right;
-    align-items: right;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header1 {
+    margin-bottom: 1cm;
     margin-right: 3cm;
 }
+
 .woordenbox {
     display: inline-block;
     padding: 0.1cm;
@@ -23,4 +29,9 @@ header {
     transform: translateY(-4px) scale(1.05);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.374); 
     color: white;
+}
+
+.foto1 {
+    width: 6cm;
+    margin-left: 2cm;
 }
