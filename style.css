@@ -35,3 +35,78 @@ header {
     width: 6cm;
     margin-left: 2cm;
 }
+
+.app {
+    background-color: rgb(245, 221, 188);
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app h1 {
+    font-size: 25px;
+    color: #000000;
+    font-weight: 600;
+    border-bottom: 1px solid #333333;
+    padding-bottom: 10px;
+}
+
+.quiz {
+    padding: 20px 0;
+}
+
+.quiz h2 {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 600;
+
+}
+
+.btn1 {
+background: #ffffff;
+color: rgb(0, 0, 0);
+font-weight: 500;
+width: 100%;
+border: 2px solid rgb(0, 0, 0);
+padding: 10px;
+margin: 10px 0;
+text-align: left;
+border-radius: 4px;
+cursor: pointer;
+
+}
+.btn2 {
+background: #ffffff;
+color: rgb(0, 0, 0);
+font-weight: 500;
+width: 100%;
+border: 2px solid rgb(255, 0, 0);
+padding: 10px;
+margin: 10px 0;
+text-align: left;
+border-radius: 4px;
+cursor: pointer;
+transition: all 0.3s;
+
+}
+
+.btn1:hover,
+.btn2:hover{
+    background-color: #000000;
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.374); 
+    color: rgb(255, 255, 255);
+}
+#next-btn{
+    background: #000000;
+    color: #ffffff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px ;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
